@@ -1,0 +1,44 @@
+{
+  "format_version": "1.0",
+  "terraform_version": "1.9.8",
+  "values": {
+    "root_module": {
+      "resources": [
+        {
+          "address": "aws_vpc.Django_EC2_VPC",
+          "mode": "managed",
+          "type": "aws_vpc",
+          "name": "Django_EC2_VPC",
+          "provider_name": "registry.terraform.io/hashicorp/aws",
+          "schema_version": 1,
+          "values": {
+            "arn": "arn:aws:ec2:us-east-1:619071323356:vpc/vpc-0d586dc08a91f5e0a",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "10.0.0.0/16",
+            "default_network_acl_id": "acl-07a79c8dee673f806",
+            "default_route_table_id": "rtb-0c12575f7a02e07a2",
+            "default_security_group_id": "sg-06e974145c4bbe667",
+            "dhcp_options_id": "dopt-066932db29ef72bc4",
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "enable_network_address_usage_metrics": false,
+            "id": "vpc-0d586dc08a91f5e0a",
+            "instance_tenancy": "default",
+            "ipv4_ipam_pool_id": null,
+            "ipv4_netmask_length": null,
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_network_border_group": "",
+            "ipv6_ipam_pool_id": "",
+            "ipv6_netmask_length": 0,
+            "main_route_table_id": "rtb-0c12575f7a02e07a2",
+            "owner_id": "619071323356",
+            "tags": { "Name": "Django_EC2_VPC" },
+            "tags_all": { "Name": "Django_EC2_VPC" }
+          },
+          "sensitive_values": { "tags": {}, "tags_all": {} }
+        }
+      ]
+    }
+  }
+}
